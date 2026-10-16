@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: #0b0c0c;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: #d2f75a;
+  color: #0b0c0c;
+}
+
+:focus-visible {
+  outline: 2px solid #d2f75a;
+  outline-offset: 4px;
+}
